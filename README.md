@@ -4,7 +4,7 @@
 ## Introduction
 This repository showcases two machine learning projects utilizing YOLOv7 for image detection tasks. One project focuses on the identification of zebras in images, while the other is dedicated to detecting defects in batteries.
 
-## Zebra AI Guide (2023)
+## Zebra AI Project (2023)
 The Zebra AI project leverages YOLOv7 to analyze and detect zebras within a dataset of wildlife images. This project's goal is to enhance the accuracy of zebra detection which can be used for various applications such as wildlife tracking and population estimation.
 
 ![Zebra Detection Sample](zebra.png)
