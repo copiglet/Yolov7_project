@@ -1,0 +1,31 @@
+
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    <html>
+        <head>
+            <title>Error: 500 Internal Server Error</title>
+            <style type="text/css">
+              html {background-color: #eee; font-family: sans;}
+              body {background-color: #fff; border: 1px solid #ddd;
+                    padding: 15px; margin: 15px;}
+              pre {background-color: #eee; border: 1px solid #ddd; padding: 5px;}
+            </style>
+        </head>
+        <body>
+            <h1>Error: 500 Internal Server Error</h1>
+            <p>Sorry, the requested URL <tt>&#039;http://127.0.0.1:8081/ai/v1/ng_batch_detect&#039;</tt>
+               caused an error:</p>
+            <pre>Internal Server Error</pre>
+              <h2>Exception:</h2>
+              <pre>UnboundLocalError(&quot;local variable &#039;btr_type&#039; referenced before assignment&quot;)</pre>
+              <h2>Traceback:</h2>
+              <pre>Traceback (most recent call last):
+  File &quot;/home/huvio/anaconda3/envs/huvio/lib/python3.9/site-packages/bottle.py&quot;, line 876, in _handle
+    return route.call(**args)
+  File &quot;/home/huvio/anaconda3/envs/huvio/lib/python3.9/site-packages/bottle.py&quot;, line 1759, in wrapper
+    rv = callback(*a, **ka)
+  File &quot;/home/huvio/Project/huvio/ai_part/detect_web.py&quot;, line 348, in ng_batch_detect
+    if btr_type == &#039;m&#039;:
+UnboundLocalError: local variable &#039;btr_type&#039; referenced before assignment
+</pre>
+        </body>
+    </html>
